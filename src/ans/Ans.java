@@ -30,7 +30,7 @@ public class Ans {
        
         try {
             StringBuilder sb = new StringBuilder();
-            File file = new File("E:/fic.txt"); 
+            File file = new File("E:/fic.jpg"); 
             DataInputStream input = new DataInputStream( new FileInputStream( file ) );
             try {
                 while( true ) {
@@ -45,7 +45,7 @@ public class Ans {
                  try {
              
                // creation de mon fichier .ANSGAR
-               out = new BufferedWriter(new FileWriter(new File("E:/bin.ans")));
+               out = new BufferedWriter(new FileWriter(new File("E:/imbin.ans")));
              
                try {
                  
